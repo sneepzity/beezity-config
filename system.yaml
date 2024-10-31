@@ -17,11 +17,11 @@ packages:
     - 'ark'
     - 'tumbler'
     - 'catfish'
-    - 'elementary-wallpapers'
     - 'virtualbox-host-dkms'
     - 'virtualbox'
     - 'bluez'
     - 'bluez-utils'
+    - 'gnome-bluetooth-3.0'
 repo: https://pkg-repo.blendos.co
 services:
 - switcheroo-control
