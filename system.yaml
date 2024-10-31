@@ -1,0 +1,26 @@
+impl: http://github.com/blend-os/tracks/raw/main
+packages:
+    - 'nvidia-dkms'
+    - 'nvidia-prime'
+    - 'switcheroo-control'
+    - 'nvidia-utils'
+    - 'lib32-nvidia-utils'
+    - 'nvidia-settings'
+    - 'xorg-server'
+    - 'xorg-xinit'
+    - 'xf86-input-libinput'
+    - 'power-profiles-daemon'
+    - 'ttf-jetbrains-mono-nerd'
+    - 'thunar'
+    - 'thunar-archive-plugin'
+    - 'thunar-volman'
+    - 'tailscale'
+    - 'ark'
+repo: https://pkg-repo.blendos.co
+services:
+- switcheroo-control
+track: default-gnome
+aur-packages: 
+    - 'minecraft-launcher'
+    - 'gnome-tweaks-git'
+    - 'whitesur-icon-theme'
