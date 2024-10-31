@@ -10,17 +10,20 @@ packages:
     - 'xorg-xinit'
     - 'xf86-input-libinput'
     - 'power-profiles-daemon'
-    - 'ttf-jetbrains-mono-nerd'
     - 'thunar'
     - 'thunar-archive-plugin'
     - 'thunar-volman'
     - 'tailscale'
     - 'ark'
+    - 'tumbler'
+    - 'catfish'
+    - 'elementary-wallpapers'
+    - 'virtualbox-host-dkms'
+    - 'virtualbox'
 repo: https://pkg-repo.blendos.co
 services:
 - switcheroo-control
 track: default-gnome
-aur-packages: 
-    - 'minecraft-launcher'
+aur-packages:
     - 'gnome-tweaks-git'
-    - 'whitesur-icon-theme'
+    - 'minecraft-launcher'
