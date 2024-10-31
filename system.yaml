@@ -20,6 +20,8 @@ packages:
     - 'elementary-wallpapers'
     - 'virtualbox-host-dkms'
     - 'virtualbox'
+    - 'bluez'
+    - 'bluez-utils'
 repo: https://pkg-repo.blendos.co
 services:
 - switcheroo-control
@@ -27,3 +29,5 @@ track: default-gnome
 aur-packages:
     - 'gnome-tweaks-git'
     - 'minecraft-launcher'
+commands:
+  - 'sudo usermod -a -G vboxusers $USER'
