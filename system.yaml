@@ -1,3 +1,12 @@
+impl: http://github.com/blend-os/tracks/raw/main
+packages:
+    - 'nvidia-dkms'
+    - 'nvidia-prime'
+    - 'switcheroo-control'
+    - 'nvidia-utils'
+    - 'lib32-nvidia-utils'
+    - 'nvidia-settings'
+    - 'xorg-server'
     - 'xorg-xinit'
     - 'xf86-input-libinput'
     - 'power-profiles-daemon'
@@ -22,13 +31,17 @@
     - 'ebtables'
     - 'vde2'
     - 'openbsd-netcat'
+    - 'podman'
+    - 'netavark'
+    - 'aardvark-dns'
+    - 'distrobox'
 repo: https://pkg-repo.blendos.co
 services:
 - switcheroo-control
 track: default-gnome
 aur-packages:
-    - 'gnome-tweaks-git'
     - 'minecraft-launcher'
+    - 'beeper-latest-bin'
 commands:
   - sudo usermod -a -G vboxusers $USER
   - nvida-xconfig
