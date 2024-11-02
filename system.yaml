@@ -41,10 +41,9 @@ services:
 track: default-gnome
 aur-packages:
     - 'minecraft-launcher'
-    - 'beeper-latest-bin'
 commands:
   - sudo usermod -a -G vboxusers $USER
-  - nvida-xconfig
+  - sudo nvidia-xconfig
   - mkdir -p /home/$USER/.config/gtk-4.0
   - touch /home/$USER/.config/gtk-4.0/settings.ini
   - echo '[Settings]' > /home/$USER/.config/gtk-4.0/settings.ini
